@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">@RISHABH</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- HOME SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="greeting">
+                        <span class="greeting-text">Hello! I Am</span>
+                        <span class="name-highlight">Rishabh Kapur</span>
+                    </div>
+                    
+                    <div class="hero-main">
+                        <div class="hero-image">
+                            <div class="image-container">
+                                <img src="portfolioimg.jpg" alt="Your Profile" class="profile-image">
+                                <div class="image-glow"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-text">
+                            <h1 class="hero-title">
+                                I’m a Python & ML Developer <br>
+                                <span class="highlight"> | Web & DSA Enthusiast</span><br>
+                                | Passionate <span class="highlight-secondary"> Aeromodeller</span>
+                            </h1>
+                            <p class="hero-description">
+                                "Engineer at heart. Maker by passion. Student for life."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-bottom">
+                    <div class="profession-text">
+                        <h2>I'm a Full Stack AI/ML and Web Developer</h2>
+                        <p>Currently, I'm a Student at <span class="company-highlight">Jaypee Institute Of Information Technology</span></p>
+                    </div>
+                    
+                    <div class="description-text">
+                        <p>I’m a developer passionate about solving real-world problems with Machine Learning,Full-Stack Web Development, and Data Structures & Algorithms.
+                            With hands-on experience across backend, AI, and system-level logic, I enjoy building both scalable software and modern world projects.
+                            
+                            Currently, I’m exploring:<br>
+                            <ul >
+                            <li>Large Language Models (LLMs) and how they can be deployed effectively via MLOps pipelines</li>
+                            <li>Applying AI to simplify learning and operations</li>
+                            <li>Web + AI integrations using Flask & Python</li>
+                        </ul>
+                            In my spare time, I dive into aeromodelling, hand-crafting aircraft to test design principles and enjoy the thrill of flight.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="floating-elements">
+                <div class="floating-element" style="--delay: 0s; --duration: 6s;"></div>
+                <div class="floating-element" style="--delay: 2s; --duration: 8s;"></div>
+                <div class="floating-element" style="--delay: 4s; --duration: 7s;"></div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="about-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know me better and my journey in tech</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-card" data-aos="fade-up">
+                            <h3>My Story</h3>
+                            <p>Engaging, Innovative Technologist 🚀<br>
+                                <p>Curiosity and code are at the heart of my academic and project journey. As a fresher graduating from Jaypee Institute of Information Technology with a Bachelor's in Computer Science, I've effectively blended theoretical knowledge and practical application to create solutions that enhance user experience and operational efficiency.</p>
+                                <p>From conceptualizing and developing a food ordering system in C++ to constructing a Face Recognition Attendance System using the latest in machine learning libraries, my projects are testimony to my capabilities in solving real-world problems with code. Not just technically, but also in making interfaces user-friendly, as seen in my StudyMate project to streamline academic resource accessibility.</p>
+                                <p>I thrive in environments that challenge my problem-solving skills and allow me to explore the exciting possibilities of web and software development. Always eager to collaborate, I believe that the best outcomes derive from working with diverse teams where each member brings a unique perspective to the table.</p>
+                                <p>If you're seeking someone who is not only passionate about technology but also dedicated to learning and growing within this dynamic field, let's connect! Check out my GitHub here to see what I've been up to lately.</p></p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image" data-aos="fade-up" data-aos-delay="200">
+                        <div class="image-container">
+                            <img src="tech_story.webp" alt="About Me" class="about-img">
+                            <div class="image-decoration"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="skills-section">
+            <div class="section-container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category" data-aos="fade-up">
+                        <h3>Frontend Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">React.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript/TypeScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Backend Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">SQLite3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">PostgreSQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">PHP</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Python Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Data Analysis Liberaries</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Flask</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Web Scrapping</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">OpenCV</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Git/GitHub</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">AWS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Figma</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section class="experience-section">
+            <div class="section-container">
+                <h2 class="section-title">Experience</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Junior Frontend Developer-Intern</h3>
+                            <span class="company">Solid State Physics Laboritory,(DRDO)</span>
+                            <span class="duration">2 months - Present</span>
+                            <p>Built the front-end of a Mentor-to-HR Intern Management System using HTML, CSS, JavaScript, and jQuery. Designed responsive UI components for intern onboarding, mentor dashboards, and progress tracking. Integrated front-end with Flask APIs to streamline internship workflow across departments.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Technical Head</h3>
+                            <span class="company">Microcontroller Based System And Robotics Hub</span>
+                            <span class="duration">2025 - 2026</span>
+                            <p>Led the core technical team and mentored junior members across various robotics projects. Brought in new ideas and innovations to enhance learning and engagement within the hub. Oversaw bot-building for competitions, coordinated hands-on workshops, managed inventory, and ensured smooth technical operations and mentorship culture in the club.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Technical Volunteer </h3>
+                            <span class="company">Microcontroller Based System And Robotics Hub</span>
+                            <span class="duration">2024 - 2025</span>
+                            <p>Guided juniors in building manual bots and learning core electronics. Collaborated with seniors, supported kit distribution, and assisted in organizing workshops and club events.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work and creative solutions</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card featured" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="face _ecognition.jpeg" alt="E-Commerce Platform">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Featured Project</span>
+                            <h3> Face Recognition Attendance System</h3>
+                            <p>Implements facial recognition to mark attendance using live webcam feed.
+                                Built with OpenCV and Python face encodings.
+                                Stores and logs attendance data automatically..</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">openCV</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="mentor.jpg" alt="Task Management App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Mentor to HR Intern Management System</h3>
+                            <p>Developed a web app at DRDO (SSPL) to streamline intern–mentor–HR workflows with onboarding forms, dashboards, feedback, and document upload features.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">Python(Flask)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-image">
+                            <img src="studymate.jpg" alt="Weather Dashboard">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3> StudyMate – Web Learning Platform</h3>
+                            <p>A centralized platform for semester-wise study materials and YouTube resources.
+                                Supports dynamic addition of YouTube links and PDF resources.
+                                UI built for First–Third Semesters with chapter-wise flow.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">Javascript</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="project-image">
+                            <img src="terminal_project.png" alt="Social Media Dashboard">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Text-to-Speech Converter</h3>
+                            <p>A Python-based utility that reads any user-inputted text aloud using the system’s native text-to-speech engine. Designed for accessibility, reading automation, or language pronunciation practice. Lightweight and can be expanded to read documents or generate audio files.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OS Module</span>
+                                <span class="tech-tag">Command Line Interface</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="800">
+                        <div class="project-image">
+                            <img src="gesture-controlled-robot.jpg" alt="AI Chat Bot">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Gesture-Controlled Car</h3>
+                            <p>A hand-gesture-driven robotic vehicle developed for a college robotics competition.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino UNO</span>
+                                <span class="tech-tag">Embedded C</span>
+                                <span class="tech-tag">RF Module</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="800">
+                        <div class="project-image">
+                            <img src="terminal_project.png" alt="AI Chat Bot">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Food Ordering System</h3>
+                            <p>Simulates a basic food delivery system with menu selection, order placement, and admin features.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">OOPs</span>
+                                <span class="tech-tag">File Handling</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="1000">
+                        <div class="project-image">
+                            <img src="portfolio_website.png" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <p>A responsive portfolio website with modern animations, dark theme, and optimized performance across all devices.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="contact-header">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">I'm always interested in new opportunities and collaborations</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-card" data-aos="fade-up">
+                            <h3>Get In Touch</h3>
+                            <p>I'm currently looking to join a cross-functional team that values improving people's lives through accessible design. Whether you have a project in mind, want to collaborate, or just want to say hi, I'd love to hear from you!</p>
+                            
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>kapur.rishabh13102003@gmail.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+91 9981414600</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Indore,India</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links" data-aos="fade-up" data-aos-delay="200">
+                            <h3>Follow Me</h3>
+                            <div class="social-grid">
+                                <a href="https://www.linkedin.com/in/rishabh-kapur/" class="social-link linkedin" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="https://github.com/Kapurrrishabh" class="social-link github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="#" class="social-link instagram" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container" data-aos="fade-up" data-aos-delay="400">
+                        <form class="contact-form" id="contactForm">
+                            <h3>Send Me a Message</h3>
+                            
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AVAILABILITY SECTION -->
+        <section class="availability-section">
+            <div class="section-container">
+                <div class="availability-card" data-aos="fade-up">
+                    <div class="orbital-animation">
+                        <div class="orbital-center">
+                            <span class="logo-text">YP</span>
+                        </div>
+                        <div class="orbital-ring">
+                            <div class="orbital-dot" style="--angle: 0deg;"></div>
+                            <div class="orbital-dot" style="--angle: 60deg;"></div>
+                            <div class="orbital-dot" style="--angle: 120deg;"></div>
+                            <div class="orbital-dot" style="--angle: 180deg;"></div>
+                            <div class="orbital-dot" style="--angle: 240deg;"></div>
+                            <div class="orbital-dot" style="--angle: 300deg;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability-status">
+                        <div class="status-indicator"></div>
+                        <span>Available for new projects</span>
+                    </div>
+                    <h2>Ready to start your next project?</h2>
+                    <p>Let's discuss how we can bring your ideas to life with clean code and beautiful design.</p>
+                    <div class="quick-contact">
+                        <a href="mailto:your.email@gmail.com" class="quick-contact-btn">
+                            <i class="fas fa-envelope"></i>
+                            Email Me
+                        </a>
+                        <a href="tel:+15551234567" class="quick-contact-btn">
+                            <i class="fas fa-phone"></i>
+                            Call Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
